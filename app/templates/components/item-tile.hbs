@@ -1,6 +1,11 @@
-
-<div class="well">
-  <li>{{item.name}} - ${{item.price}} - {{item.type}}
-  <br> {{item.details}}<br>
-  <img src="{{item.image}}" alt="{{item.detail}}" /></li>
+<div class="item">
+  <li>
+    <h4>{{item.name}}</h4>
+    <h5>{{item.type}} - ${{item.price}}</h5>
+    <br>
+    <p>{{item.details}}</p>
+    <br>
+    <img src="{{item.image}}" alt="{{item.detail}}" />
+  </li>
+  <button class="add-item" {{action 'addToCart' item}}>Add to Cart</button>
 </div>

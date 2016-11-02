@@ -17,7 +17,56 @@ h1 {
   margin-right: 27px;
 }
 
+.cart-display {
+  margin: 20px;
+}
+
+.cart-display > h3 {
+  float: left;
+}
+
+.cart-display > li {
+  margin: 20px;
+  margin-top: 25px;
+  float: left;
+  list-style: none;
+}
+
+.cart-display > li > img {
+  height: 40px;
+}
+
+.cart-display > h4 {
+  clear: both;
+}
+
+.cart-display > li > button {
+  background-color: inherit;
+  border: none;
+}
+
+.cart-display > li > button > img {
+  height: 25px;
+  width: auto;
+}
+
 .page-body {
   position: relative;
   top: 200px;
+}
+
+.item {
+  height: 500px;
+  width: 500px;
+  float:left;
+  margin: 20px;
+}
+
+.item > li > img {
+  max-height: 300px;
+  margin: 20px;
+}
+
+.add-item {
+
 }
