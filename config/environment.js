@@ -13,6 +13,13 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: "AIzaSyCKCusCQIJj6qSTwdGLiM1LVKK-lD2LzhA",
+      authDomain: "yerba-mate-store.firebaseapp.com",
+      databaseURL: "https://yerba-mate-store.firebaseio.com",
+      storageBucket: "yerba-mate-store.appspot.com",
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created

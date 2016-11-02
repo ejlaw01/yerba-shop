@@ -1,0 +1,20 @@
+{ "items": [{
+    "name": "Canarias",
+    "type": "Yerba",
+    "details": "Our best seller. Shipped directly from Brazil. Uruguay's most popular brand. No stems, fine grind, and a nice smooth flavor, with a surprising kick.",
+    "price": 12.00,
+    "image": "http://www.goyerbamate.com/resize/Shared/images/Product/Canarias-Yerba-Mate-1-kg-2-2-lbs/Canarias-Yerba-Mate.jpg?lr=t&bw=300&bh=300"
+  }, {
+    "name": "Bronston OG",
+    "type": "Calabash Mate",
+    "details": "A calabash so soft, you’d think it’s leather. Buttersmooth, dark, and velvety, you’re sipping from a premium vessel, enhancing the experience with every sip. With unique natural shapes, dark espresso colors, and perfect imperections, no Bronston Cup is the same.",
+    "price": 59.00,
+    "image": "http://circleofdrink.com/wp-content/uploads/940281_450X480_Bronston-Cup-Original-Uruguayan-Yerba-Mate-Gourd.png"
+  }, {
+    "name": "Lucho",
+    "type": "Bombilla",
+    "details": "Handcrafed with 100% pure alpaca steel, and accented with a bronze handle and filter fixture, the Lucho Bombilla looks as good as it filters. A simple bombilla with an elongated tapered spout and friendly bronze handle, your mate flows freely and adjusting is a breeze.",
+    "price": 59.00,
+    "image": "http://circleofdrink.com/wp-content/uploads/940440_450X480_lucho-pure-alapac-yerba-mate-bombilla.png"
+  }]
+}
