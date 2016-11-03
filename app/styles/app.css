@@ -78,6 +78,28 @@ ul {
   margin: 20px;
 }
 
-.add-item {
+.item-detail {
+  position: relative;
+  margin: 30px;
+}
 
+.item-detail > h1 {
+  float: none;
+}
+
+.item-detail > img {
+  margin: 20px;
+  height: 500px;
+}
+
+.review-tile > li {
+}
+
+#newReview {
+  margin: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: darkgrey;
+  border: none;
+  color: white;
 }

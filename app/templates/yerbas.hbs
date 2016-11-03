@@ -1,7 +1,7 @@
 <ul>
   {{#each model as |item|}}
   <li>
-    <h4>{{item.name}}</h4>
+    {{#link-to 'itemDetail' item}} <h4>{{item.name}}</h4>{{/link-to}}
     <h5>{{item.type}} - ${{item.price}}</h5>
     <br>
     <p>{{item.details}}</p>

@@ -1,0 +1,12 @@
+<div class="review-tile">
+  <ul>
+    {{#each item.reviews as |review|}}
+      <li>
+        <strong>{{review.author}}</strong> <br>
+        <i>{{review.rating}} stars</i> <br>
+        {{review.content}}
+        <hr>
+      </li>
+    {{/each}}
+  </ul>
+</div>

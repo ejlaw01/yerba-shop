@@ -46,5 +46,14 @@
     "price": 59.00,
     "image": "http://circleofdrink.com/wp-content/uploads/940440_450X480_lucho-pure-alapac-yerba-mate-bombilla.png",
     "quantity": 0
-  }]
+  }],
+    "reviews": [{
+      "author": "Andrea",
+      "rating": 4,
+      "content": "Did not like."
+    }, {
+      "author": "Alex",
+      "rating": 9,
+      "content": "Very impressive!"
+    }]
 }

@@ -1,12 +1,12 @@
 <ul>
   {{#each model as |item|}}
   <li>
-    <h4>{{item.name}}</h4>
+    {{#link-to 'itemDetail' item}} <h4>{{item.name}}</h4>{{/link-to}}
     <h5>{{item.type}} - ${{item.price}}</h5>
     <br>
     <p>{{item.details}}</p>
     <br>
-    <img src="{{item.image}}" alt="{{item.detail}}" />
+    <img src="{{item.image}}" alt="{{item.detail}}">
   </li>
   <button class="add-item" {{action 'addToCart' item}}>Add to Cart</button>
   {{/each}}

@@ -9,6 +9,7 @@ Router.map(function() {
   this.route('yerbas');
   this.route('mates');
   this.route('bombillas');
+  this.route('itemDetail', {path: '/itemDetail/:item_id'});
 });
 
 export default Router;
