@@ -4,13 +4,12 @@
     {{#each shoppingCart.items as |item|}}
       <li>
         <img src="{{item.image}}">
-        {{item.name}} - ${{item.price}}
+        {{item.name}} - ${{item.price}} - x{{item.quantity}}
         <button {{action 'remove' item}}>
           <img src="http://customwastega.com/wp-content/uploads/2015/02/noun_16193.png">
         </button>
       </li>
     {{/each}}
     <h4>Total: ${{shoppingCart.total}}</h4>
-    <hr>
   {{/if}}
 </div>

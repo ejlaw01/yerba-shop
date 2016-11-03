@@ -2,8 +2,12 @@ h1 {
   float: left;
 }
 
+ul {
+  list-style: none;
+}
+
 .header {
-  position: absolute;
+  position: relative;
   top: 20px;
   left: 20px;
   right: 20px;
@@ -18,7 +22,13 @@ h1 {
 }
 
 .cart-display {
-  margin: 20px;
+  margin: 40px;
+  margin-bottom: 70px;
+  position: relative;
+  top: 80px;
+  height: 100px;
+  width: 100%;
+  clear: both;
 }
 
 .cart-display > h3 {
@@ -52,7 +62,8 @@ h1 {
 
 .page-body {
   position: relative;
-  top: 200px;
+  top: 100px;
+  clear: both;
 }
 
 .item {

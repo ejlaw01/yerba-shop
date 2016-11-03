@@ -6,6 +6,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('yerbas');
+  this.route('mates');
+  this.route('bombillas');
 });
 
 export default Router;

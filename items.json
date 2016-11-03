@@ -1,38 +1,50 @@
 { "items": [{
     "name": "Canarias",
-    "type": "Yerba",
+    "type": "yerba",
+    "typeDetail": "Uruguayan",
     "details": "Our best seller. Shipped directly from Brazil. Uruguay's most popular brand. No stems, fine grind, and a nice smooth flavor, with a surprising kick.",
     "price": 12.00,
-    "image": "http://www.goyerbamate.com/resize/Shared/images/Product/Canarias-Yerba-Mate-1-kg-2-2-lbs/Canarias-Yerba-Mate.jpg?lr=t&bw=300&bh=300"
+    "image": "http://www.goyerbamate.com/resize/Shared/images/Product/Canarias-Yerba-Mate-1-kg-2-2-lbs/Canarias-Yerba-Mate.jpg?lr=t&bw=300&bh=300",
+    "quantity": 0
   }, {
-      "name": "Resamonte Especial",
-      "type": "Yerba",
+      "name": "Rosamonte Especial",
+      "type": "yerba",
+      "typeDetail": "Argentine",
       "details": "Yerba mate from Argentina, with stems, one of the strongest, smokey flavor. Special aged for a smoother taste. Very popular with serious yerba drinkers.",
       "price": 15.00,
-      "image": "http://www.goyerbamate.com/resize/Shared/images/Product/Rosamonte-Especial-Yerba-Mate-1-kg-2-2-lbs/Rosamonte-Especial-Yerba-Mate-1kg.jpg?lr=t&bw=300&bh=300"
+      "image": "http://www.goyerbamate.com/resize/Shared/images/Product/Rosamonte-Especial-Yerba-Mate-1-kg-2-2-lbs/Rosamonte-Especial-Yerba-Mate-1kg.jpg?lr=t&bw=300&bh=300",
+      "quantity": 0
   }, {
       "name": "Simonaggio Slim",
-      "type": "Bombilla",
+      "type": "bombilla",
+      "typeDetail": "Stainless steel",
       "details": "This is our best selling bombilla, its sleek design and large filter make it very versitile. This bombilla will even work with most travel mugs and tumblers because it is long and thin enough to fit through the sip hole. Made of nickel plated bronze so that it will not oxidize.",
       "price": 6.00,
-      "image": "http://www.goyerbamate.com/resize/Shared/images/Product/Simonaggio-Slim-Bombilla-8-in-20-cm/Simonaggio-Slim-Bombilla-8in-A.jpg?lr=t&bw=300&bh=300"
+      "image": "http://www.goyerbamate.com/resize/Shared/images/Product/Simonaggio-Slim-Bombilla-8-in-20-cm/Simonaggio-Slim-Bombilla-8in-A.jpg?lr=t&bw=300&bh=300",
+      "quantity": 0
   }, {
     "name": "Bronston OG",
-    "type": "Calabash Mate",
+    "type": "mate",
+    "typeDetail": "Calabash",
     "details": "A calabash so soft, you’d think it’s leather. Buttersmooth, dark, and velvety, you’re sipping from a premium vessel, enhancing the experience with every sip. With unique natural shapes, dark espresso colors, and perfect imperections, no Bronston Cup is the same.",
     "price": 59.00,
-    "image": "http://circleofdrink.com/wp-content/uploads/940281_450X480_Bronston-Cup-Original-Uruguayan-Yerba-Mate-Gourd.png"
+    "image": "http://circleofdrink.com/wp-content/uploads/940281_450X480_Bronston-Cup-Original-Uruguayan-Yerba-Mate-Gourd.png",
+    "quantity": 0
   }, {
     "name": "Argenthings Alpaca Gourd",
-    "type": "Calabash Mate",
+    "type": "mate",
+    "typeDetail": "Calabash",
     "details": "3.25 inches high, 2 inch opening, holds 5-6 oz.",
     "price": 25.00,
-    "image": "http://www.goyerbamate.com/resize/Shared/Images/Product/Argenthings-Alpaca-Gourd-Rolled-Legs-Leaf-Ring-5-oz/alp-5-a.jpg?lr=t&bw=300&bh=300"
+    "image": "http://www.goyerbamate.com/resize/Shared/Images/Product/Argenthings-Alpaca-Gourd-Rolled-Legs-Leaf-Ring-5-oz/alp-5-a.jpg?lr=t&bw=300&bh=300",
+    "quantity": 0
   }, {
     "name": "Lucho",
-    "type": "Bombilla",
+    "type": "bombilla",
+    "typeDetail": "Alpaca",
     "details": "Handcrafed with 100% pure alpaca steel, and accented with a bronze handle and filter fixture, the Lucho Bombilla looks as good as it filters. A simple bombilla with an elongated tapered spout and friendly bronze handle, your mate flows freely and adjusting is a breeze.",
     "price": 59.00,
-    "image": "http://circleofdrink.com/wp-content/uploads/940440_450X480_lucho-pure-alapac-yerba-mate-bombilla.png"
+    "image": "http://circleofdrink.com/wp-content/uploads/940440_450X480_lucho-pure-alapac-yerba-mate-bombilla.png",
+    "quantity": 0
   }]
 }

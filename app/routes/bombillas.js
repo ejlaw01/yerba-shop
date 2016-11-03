@@ -1,8 +1,12 @@
 import Ember from 'ember';
 
-export default Ember.Component.extend({
-  shoppingCart: Ember.inject.service(),
-
+export default Ember.Route.extend({
+  model() {
+    return this.store.query('item', {
+      orderBy: 'type',
+      equalTo: 'bombilla'
+    });
+  },
   actions: {
     addToCart(item) {
       var price = item.get('price');

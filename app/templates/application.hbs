@@ -5,17 +5,28 @@
       <h3>About</h3>
     </div>
     <div class="nav-link">
-      <h3>Bombillas</h3>
+      {{#link-to 'bombillas'}}
+        <h3>Bombillas</h3>
+      {{/link-to}}
     </div>
     <div class="nav-link">
-      <h3>Mates</h3>
+      {{#link-to 'mates'}}
+        <h3>Mates</h3>
+      {{/link-to}}
     </div>
     <div class="nav-link">
-      <h3>Yerba</h3>
+      {{#link-to 'yerbas'}}
+        <h3>Yerba</h3>
+      {{/link-to}}
     </div>
     <div class="nav-link">
-      <h3>Home</h3>
+      {{#link-to 'index'}}
+        <h3>Home</h3>
+      {{/link-to}}
     </div>
+  </div>
+  <div>
+    {{display-cart item=item}}
   </div>
 </div>
 <div class="page-body">
