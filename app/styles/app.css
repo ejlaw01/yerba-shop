@@ -67,10 +67,12 @@ ul {
 }
 
 .item {
+  position: relative;
   height: 500px;
   width: 500px;
   float:left;
   margin: 20px;
+  margin-bottom: 40px;
 }
 
 .item > li > img {
@@ -79,7 +81,7 @@ ul {
 }
 
 .item-detail {
-  position: relative;
+  position: absolute;;
   margin: 30px;
 }
 
@@ -90,16 +92,21 @@ ul {
 .item-detail > img {
   margin: 20px;
   height: 500px;
+  display: block;
 }
 
-.review-tile > li {
+.item-detail > button {
+  clear: both;
+  margin: 20px;
+  padding: 15px;
+  background-color: lightgreen;
 }
 
 #newReview {
   margin: 20px;
   padding: 15px;
   border-radius: 5px;
-  background-color: darkgrey;
+  background-color: grey;
   border: none;
   color: white;
 }
